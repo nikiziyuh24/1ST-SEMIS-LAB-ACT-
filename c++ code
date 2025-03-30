@@ -1,0 +1,105 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main() {
+    string search;
+    cout << "What math term do you wanna search? :";
+    cin >> search;
+    if (search == "Abacus"){
+        cout << "An early counting tool used for basic arithmetic.";
+    }
+    else if(search == "Acute Angle"){
+        cout << "An angle whose measure is between zero degrees and 90 degrees,or with less than 90-degree radians.";
+    }
+    else if(search == "Addend"){
+        cout << "A number involved in an addition problem.";
+    }
+    else if (search == "Algebra"){
+        cout << "The branch of mathematics that substitutes letters for numbers to solve for unknown values.";
+    }
+    else if(search == "Algorithm"){
+        cout << "The procedure or set of steps used to solve a mathematical computation.";
+    }
+    else if(search == "Base"){
+        cout << "The bottom of a shape or three-dimensional object.";
+    }
+    else if(search == "Bar Graph"){
+        cout << "A graph that represents data visually using bars of different heights or lengths.";
+    }
+    else if (search == "Bell Curve"){
+        cout << "The center of a bell curve contains the highest value points.";
+    }
+    else if(search == "Binomial"){
+        cout << "A polynomial equation with two terms usually joined by a plus or minus sign.";
+    }
+    else if(search == "PEMDAS"){
+        cout << "An acronym used to help people remember the correct order of operations for solving algebraic equations.";
+    }
+    else if(search == "Calculus"){
+        cout << "The branch of mathematics involving derivatives and integrals.";
+    }
+    else if (search == "Chord"){
+        cout << "A segment joining two points on a circle.";
+    }
+    else if(search == "Coefficient"){
+        cout << "A letter or number representing a numerical quantity attached to a term.";
+    }
+    else if(search == "Cone"){
+        cout << "A three-dimensional shape with only one vertex and a circular vase.";
+    }
+    else if(search == "Constant"){
+        cout << "A value that does not change.";
+    }
+    else if (search == "Decimal"){
+        cout << "A real number on the basr ten standard numbering system.";
+    }
+    else if(search == "Decagon"){
+        cout << "A polygon or shape with ten angles and ten straight lines.";
+    }
+    else if(search == "Degree"){
+        cout << "The unit of an angle's measure.";
+    }
+    else if(search == "Diagonal"){
+        cout << "A line segment that connects two vertices in a polygon.";
+    }
+    else if (search == "Dividend"){
+        cout << "A number divided into equal parts.";
+    }
+    else if(search == "Edge"){
+        cout << "A line is where two faces meet in a three-dimensional structure.";
+    }
+    else if(search == "End Point"){
+        cout << "The point at which a line or curve ends.";
+    }
+    else if(search == "Equilateral"){
+        cout << "A term used to described a shape whose sides are all equal length.";
+    }
+    else if (search == "Equation"){
+        cout << "A statement that shows the equality of two expressions by joining them with an equal sign.";
+    }
+    else if(search == "Evaluate"){
+        cout << "This word means to calculate the numerical value.";
+    }
+else if (search == "Face"){
+        cout << "The flat surfaces on a three-dimensional object.";
+    }
+    else if(search == "Factoring"){
+        cout << "The process of breaking numbers into another number exactly.";
+    }
+    else if(search == "Figures"){
+        cout << "Two-dimensional shapes.";
+    }
+    else if(search == "Finite"){
+        cout << "Not infinite, has an end.";
+    }
+    else if (search == "Flip"){
+        cout << "A reflection or mirror image of a two-dimensional shape.";
+    }
+ 
+    else{ cout << "Invalid input";
+    }
+    return 0;
+    
+}
