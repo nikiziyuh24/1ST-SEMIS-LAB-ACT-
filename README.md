@@ -1,2 +1,5 @@
 # 1ST-SEMIS-LAB-ACT-
 CONVERTING DICTIONARY PYTHON CODE INTO C++ VERSION 
+
+YT VIDEO LINK: 
+https://youtube.com/shorts/hklO9EmfHlE?si=z-RDktAzAaYx5WNi
